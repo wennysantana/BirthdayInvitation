@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Convite de Aniversário
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao site de convite de aniversário! Este projeto é uma aplicação web simples desenvolvida em ReactJS para criar convites de aniversário personalizados e permitir que os convidados confirmem sua presença.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Formulário de Convite:** Os usuários podem preencher um formulário com seu nome e número de telefone para confirmar sua presença na festa de aniversário.
+- **Exibição de Detalhes da Festa:** Os detalhes da festa, incluindo o endereço, data e horário, são exibidos na página para que os convidados possam se programar.
+- **Armazenamento de Dados:** Os dados dos convidados são armazenados em tempo real no Firebase Realtime Database.
 
-### `npm start`
+## Como Usar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Preencha o Formulário de Convite:** Na página inicial, preencha o formulário com seu nome e número de telefone e clique em "Confirmar Presença".
+2. **Visualize os Detalhes da Festa:** Os detalhes da festa, incluindo o endereço, data e horário, serão exibidos na mesma página.
+3. **Confirmação de Presença:** Após preencher o formulário, sua presença será confirmada e seus dados serão armazenados no banco de dados.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologias Utilizadas
 
-### `npm test`
+- ReactJS: Biblioteca JavaScript para construir interfaces de usuário.
+- Firebase Realtime Database: Banco de dados NoSQL em tempo real para armazenar os dados dos convidados.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalação
 
-### `npm run build`
+1. Clone este repositório:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone https://github.com/seu_usuario/seu_repositorio.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navegue até o diretório do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+cd seu_repositorio
 
-### `npm run eject`
+3. Instale as dependências:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Execute o aplicativo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Contribuição
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contribuições são bem-vindas! Se você quiser contribuir para este projeto, siga estas etapas:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Faça um fork do projeto
+2. Crie uma branch para sua contribuição 
+3. Faça commit das suas alterações 
+4. Faça push para o branch 
+5. Abra um pull request
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
