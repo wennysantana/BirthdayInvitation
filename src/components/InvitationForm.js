@@ -64,7 +64,7 @@ const InvitationForm = () => {
         <input
           type="text"
           value={phone}
-          onChange={handlePhoneChange} // Usamos a função para lidar com a mudança no campo de telefone
+          onChange={handlePhoneChange} 
           className="input"
           required
         />

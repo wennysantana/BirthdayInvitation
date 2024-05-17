@@ -40,3 +40,10 @@
   color: red;
   margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+  .login-container {
+    max-width: 90%;
+    margin-top: 50px;
+  }
+}
