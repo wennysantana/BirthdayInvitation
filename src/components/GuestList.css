@@ -1,0 +1,23 @@
+.guest-list-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .guest-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .guest-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .guest-item p {
+    margin: 5px 0;
+  }
+  
