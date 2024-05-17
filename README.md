@@ -1,7 +1,8 @@
 # Convite de Aniversário
 
 Bem-vindo ao site de convite de aniversário! Este projeto é uma aplicação web simples desenvolvida em ReactJS para criar convites de aniversário personalizados e permitir que os convidados confirmem sua presença.
-![Imagem1](https://prnt.sc/SU9feKDuOcxe)
+![image](https://github.com/wennysantana/BirthdayInvitation/assets/101837881/1ecce5cf-f411-4960-a3fe-85d4498b4cdf)
+
 
 
 ## Funcionalidades
