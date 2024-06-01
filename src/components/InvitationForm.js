@@ -8,8 +8,8 @@ const InvitationForm = () => {
   const [phone, setPhone] = useState('');
 
   const address = "Rua Pratapólis, 39 - Coelhos, Recife";
-  const date = "15 de junho de 2024";
-  const time = "16:00";
+  const date = "16 de junho de 2024";
+  const time = "13:00";
 
   const handleSubmit = (e) => {
     e.preventDefault();
